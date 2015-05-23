@@ -7,3 +7,6 @@ if a>4 or a<1:
 else:
 	cmd:
 
+saisie de texte input()
+var=input(" saisissez la variable ")
+

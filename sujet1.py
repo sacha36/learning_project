@@ -14,7 +14,8 @@
 #
 
 print("Debut du programme")
-Annee=2000
+Annee=input("Saisissez l'année à verifier")
+Annee=int(Annee)
 print("l'année qu\'on va vérifier est : ",Annee)
 
 
