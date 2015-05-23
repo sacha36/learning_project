@@ -10,3 +10,9 @@ else:
 saisie de texte input()
 var=input(" saisissez la variable ")
 
+while 1:
+
+
+if a=="Secret":
+	break
+continue on retourne au while
