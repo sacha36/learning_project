@@ -1,6 +1,7 @@
 #! etc/bin
 
-
+import os 
+import time
 
 ##this will be my first function in Python
 
@@ -19,6 +20,18 @@ def ma_seconde_function (param_1,param_2):
 		result=i*param_1
 		print(result)
 		i+=1
+def function_carree(param_1):
+	return param_1*param_1
+
 # End function  
 
-ma_seconde_function(5,500000)
+
+
+#utilisation de la function carree
+
+a=5
+print(a)
+b=function_carree(a)
+print(b)
+
+time.sleep(5)
